@@ -22,7 +22,7 @@ pygmentsCodefences       = true
     # rss                = ""
 
 [[params.mainMenu]]
-    link = "posts"
+    link = "/posts"
     text = "posts"
 
 [[params.mainMenu]]
@@ -34,7 +34,7 @@ pygmentsCodefences       = true
     text = "portfolio"
 
 [[params.mainMenu]]
-    link = "/content/about"
+    link = "/about"
     text = "who the fuck is Frank?"
 
 [imaging]
