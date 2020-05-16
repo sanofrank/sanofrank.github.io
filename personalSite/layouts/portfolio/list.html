@@ -4,7 +4,7 @@
 </article>
 <nav role="navigation">
     <ul>
-        {{ range .Data.Pages }}
+        {{ range sort .Data.Pages ".Params.endDate" "desc"}}
         <li>
            
             {{ if (.Params.endDate) }}
