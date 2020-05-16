@@ -3,6 +3,8 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 period: "{{ dateFormat "2006" now }}"
-category: ["portfolio"]
+startDate: {{ dateFormat "2006-01" now}}
+endDate: 
+category: "portfolio"
 ---
 

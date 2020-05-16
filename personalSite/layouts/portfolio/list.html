@@ -1,0 +1,23 @@
+{{ define "section_content" }}
+<article class="flex-container">
+    {{ .Content }}
+</article>
+<nav role="navigation">
+    <ul>
+        {{ range .Data.Pages }}
+        <li>
+           
+            {{ if (.Params.endDate) }}
+            {{ dateFormat "Jan, 2006" .Params.startDate}} - {{ dateFormat "Jan, 2006" .Params.endDate}} --
+            {{ else }}
+            {{ dateFormat "Jan, 2006" .Params.startDate}} - ongoing --
+            {{ end }}
+
+            <a href="{{.RelPermalink}}">
+                {{.Title | markdownify}} <!--{{.Params.subTitle | markdownify}}-->
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</nav>
+{{ end }}

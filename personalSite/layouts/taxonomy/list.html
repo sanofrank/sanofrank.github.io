@@ -1,0 +1,57 @@
+{{ define "section_content" }}
+<article class="flex-container">
+    {{ .Content }}
+</article>
+
+<h3>posts</h3>
+<nav role="navigation">
+    <ul>
+        {{$posts := where .Data.Pages "Section" "posts"}}
+        {{ if len $posts | lt 0 }}
+
+        {{range where .Data.Pages "Section" "posts"}}
+        <li>
+            {{ if .Params.showDate }}
+            {{ .Date.Format (.Site.Params.dateForm | default "Mon Jan 02, 2006")}} --
+            <a href="{{.RelPermalink}}">
+                {{.Title | markdownify}}
+            </a>
+            {{end}}
+        </li>
+        {{end}}
+        {{ else }}
+        <li>
+            <p>I couldn't find any match</p>
+        </li>
+        {{ end }}
+        
+    </ul></nav>
+
+<h3>portfolio</h3>
+<nav role="navigation">
+    <ul>
+        {{$posts := where .Data.Pages "Section" "portfolio"}}
+        {{ if len $posts | lt 0 }}
+
+        {{range where .Data.Pages "Section" "portfolio"}}
+        <li>
+            {{if .Params.endDate}}
+            {{ dateFormat "Jan, 2006" .Params.startDate}} - {{ dateFormat "Jan, 2006" .Params.endDate}} -- 
+            {{else}}
+            {{dateFormat  "Jan, 2006" .Params.startDate}} - ongoing --
+            {{end}}
+            <a href="{{.RelPermalink}}">
+                {{.Title | markdownify}}
+            </a>
+        </li>
+        {{ end }}
+        {{else}}
+        <li>
+            <p>I couldn't find any match</p>
+        </li>
+        {{end}}
+    </ul>
+
+</nav>
+    
+{{ end }}

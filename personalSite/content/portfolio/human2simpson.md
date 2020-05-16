@@ -1,18 +1,19 @@
 ---
 title: "Human2Simpson"
+subtitle: "Unpaired image to image traslation based on GAN networks"
 date: 2019-10-12T15:35:39+02:00
 showDate: false
 draft: false
-tags: ["classic"]
+tags: ["machine learning","cyclegan","python","neural network"]
+category: "portfolio"
+startDate: 2018-08-01
+endDate: 2018-11-01
 ---
-
-Date: August 2018 - November 2018
-## Unpaired image to image traslation based on GAN networks.
 
 ![human2simpson](/portfolio/human2simpson.png)
 
-# PROJECT DESCRIPTION
----
+## Unpaired image to image traslation based on GAN networks.
+
 Project done for the Machine Learning exam.
 
 The project is based on CycleGAN model that allows to learn how to transform an image from one domain (style) to an another using for the training two unpaired dataset. Some additions have been made on the traditional CycleGAN.
