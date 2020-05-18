@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://example.com/tags/blog/</loc>
+    <lastmod>2020-05-13T11:55:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/first_post/</loc>
+    <lastmod>2020-05-13T11:55:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/paged.js/</loc>
+    <lastmod>2020-05-13T11:55:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/story/</loc>
+    <lastmod>2020-05-13T11:55:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2020-05-13T11:55:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/digital-publishing/</loc>
+    <lastmod>2020-05-12T16:57:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/portfolio/fitting/</loc>
+    <lastmod>2020-05-12T16:57:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/pagination/</loc>
+    <lastmod>2020-05-12T16:57:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/typography/</loc>
+    <lastmod>2020-05-12T16:57:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/about/</loc>
+    <lastmod>2020-05-12T12:53:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2020-05-12T12:53:33+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/clustering/</loc>
+    <lastmod>2019-10-12T15:35:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/cyclegan/</loc>
+    <lastmod>2019-10-12T15:35:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/portfolio/human2simpson/</loc>
+    <lastmod>2019-10-12T15:35:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/instagram/</loc>
+    <lastmod>2019-10-12T15:35:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/machine-learning/</loc>
+    <lastmod>2019-10-12T15:35:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/neural-network/</loc>
+    <lastmod>2019-10-12T15:35:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/python/</loc>
+    <lastmod>2019-10-12T15:35:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/portfolio/hashtagrec/</loc>
+    <lastmod>2019-10-12T15:35:39+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/portfolio/</loc>
+    <lastmod>2018-02-13T12:21:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/posts/</loc>
+    <lastmod>2018-02-13T12:21:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/gallery/</loc>
+  </url>
+  
+</urlset>

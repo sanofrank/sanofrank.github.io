@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>paged.js on Call me Frank</title>
+    <link>https://example.com/tags/paged.js/</link>
+    <description>Recent content in paged.js on Call me Frank</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 May 2020 11:55:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/paged.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First_post</title>
+      <link>https://example.com/posts/first_post/</link>
+      <pubDate>Wed, 13 May 2020 11:55:44 +0200</pubDate>
+      
+      <guid>https://example.com/posts/first_post/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at leo sapien. Vivamus dignissim odio quis mauris congue porta. Quisque imperdiet tellus vel rhoncus porttitor. Cras gravida vel leo nec pretium. Nullam aliquam hendrerit tortor eget porta. Donec diam sem, porttitor ac libero nec, facilisis ultrices ante. Nam suscipit porttitor magna, id dignissim lacus laoreet eu. Duis lacinia eros ac nisi sagittis efficitur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</description>
+    </item>
+    
+    <item>
+      <title>Fitting Algorithm</title>
+      <link>https://example.com/portfolio/fitting/</link>
+      <pubDate>Tue, 12 May 2020 16:57:36 +0200</pubDate>
+      
+      <guid>https://example.com/portfolio/fitting/</guid>
+      <description>Automatic application of typographical constraints for printing text documents on browsers Thesis project for my bachelor degree.
+Developing of a fitting algorithm which help choosing a paginated sequence with a system of scores, established by typesetting rules (ex. no widows or orphans, no flyspeck, no blank space), that will be then displayed on the browser using the open source framework Paged.js.
+ Skills used
+ Languages: Javascript, HTML5, CSS3 Concepts: Pagination, Digital Publishing, Typography Tools: Paged.</description>
+    </item>
+    
+  </channel>
+</rss>

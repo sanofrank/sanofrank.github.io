@@ -6,4 +6,5 @@ showDate: false
 
 Hi, my name is Francesco Paolucci and I’m a recently graduated computer scientist, with lots of interest in the Digital Publishing
 and front-end development. I love reading comics, books and share this passion with others. 
-![Propic](/CVproPic.jpg)
+
+![Propic](/aboutMe_comics2.jpg)
