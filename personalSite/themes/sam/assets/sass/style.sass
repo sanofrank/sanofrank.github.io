@@ -8,7 +8,7 @@
     box-sizing: border-box
 
 html
-    background-color: $dark-grey
+    background-color: $background
     font-family: $font
     font-size: 16px
 
@@ -26,13 +26,14 @@ body
     opacity: 1
 
 header
+    color: $title
     padding: 6em 1em 1em 0
     @media screen and (max-width: 736px)
         padding: 3em 1em
 //Splash page
 #overlay
     position: absolute
-    background: $dark-grey
+    background: $background
     margin: auto
     height: 100%
     width: 100%
@@ -177,8 +178,6 @@ textarea:focus::placeholder
 h1,h2,h3
     margin-bottom: 0.5em
     font-family: 'Didact Gothic', sans-serif
-    opacity: 0.6
-
 li
     opacity: 0.8
     & a
@@ -258,6 +257,7 @@ nav
     bottom: 0
     padding: 1rem
     font-family: $font
+    color: $dark-orange
     font-size: 1rem
     line-height: 1em
     opacity: 0.8

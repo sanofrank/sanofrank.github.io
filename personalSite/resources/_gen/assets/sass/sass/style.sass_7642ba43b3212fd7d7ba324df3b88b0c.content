@@ -5,7 +5,7 @@
   box-sizing: border-box; }
 
 html {
-  background-color: #39424E;
+  background-color: #141414;
   font-family: "Didact Gothic", "sans serif";
   font-size: 16px; }
 
@@ -23,13 +23,14 @@ body {
   opacity: 1; }
 
 header {
+  color: #ff6600;
   padding: 6em 1em 1em 0; }
   @media screen and (max-width: 736px) {
     header {
       padding: 3em 1em; } }
 #overlay {
   position: absolute;
-  background: #39424E;
+  background: #141414;
   margin: auto;
   height: 100%;
   width: 100%;
@@ -56,7 +57,7 @@ select {
   text-transform: none; }
 
 button, input, select, textarea {
-  color: #cccccc;
+  color: #b3b3b3;
   font: "Didact Gothic", "sans serif";
   margin: 0; }
 
@@ -79,7 +80,7 @@ form {
 input[type='text'], [type='email'], select, textarea {
   background: none;
   border: none;
-  border-bottom: solid 2px #cccccc;
+  border-bottom: solid 2px #b3b3b3;
   color: #fff;
   margin: 0em 0 1.875em 0;
   padding: 0 0 0.875em 0;
@@ -121,23 +122,23 @@ textarea:focus::placeholder {
   color: transparent; }
 
 ::-webkit-input-placeholder {
-  color: #cccccc; }
+  color: #b3b3b3; }
 
 :-moz-placeholder, ::-moz-placeholder {
-  color: #cccccc;
+  color: #b3b3b3;
   opacity: 1; }
 
 :-moz-placeholder {
-  color: #cccccc;
+  color: #b3b3b3;
   opacity: 1; }
 
 :-ms-input-placeholder {
-  color: #cccccc; }
+  color: #b3b3b3; }
 
 #form_button {
   background: none;
-  border: solid 2px #cccccc;
-  color: #cccccc;
+  border: solid 2px #b3b3b3;
+  color: #b3b3b3;
   cursor: pointer;
   display: inline-block;
   font-family: "Didact Gothic", "sans serif";
@@ -151,7 +152,7 @@ textarea:focus::placeholder {
   transition: all 0.3s; }
   #form_button:hover {
     background: #fff;
-    color: #39424E;
+    color: #33302E;
     border: solid 2px #fff; }
 
 @media screen and (max-width: 768px) {
@@ -169,8 +170,7 @@ textarea:focus::placeholder {
 
 h1, h2, h3 {
   margin-bottom: 0.5em;
-  font-family: 'Didact Gothic', sans-serif;
-  opacity: 0.6; }
+  font-family: 'Didact Gothic', sans-serif; }
 
 li {
   opacity: 0.8; }
@@ -184,15 +184,15 @@ p {
   display: inline; }
 
 a {
-  color: #cccccc;
+  color: #b3b3b3;
   text-decoration: none;
-  border-bottom: 2px solid #cccccc;
+  border-bottom: 2px solid #b3b3b3;
   transition: 0.5s ease; }
   a:hover {
     color: #fff;
     font-style: none; }
   a:active {
-    color: #cccccc; }
+    color: #b3b3b3; }
 
 button {
   padding: 20px;
@@ -255,6 +255,7 @@ nav {
   bottom: 0;
   padding: 1rem;
   font-family: "Didact Gothic", "sans serif";
+  color: #b84900;
   font-size: 1rem;
   line-height: 1em;
   opacity: 0.8; }
@@ -270,7 +271,18 @@ nav {
   font-size: 3rem;
   font-weight: 300;
   margin-bottom: 2rem;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  color: #b84900; }
+  .big-link:hover {
+    color: #ff6600; }
+
+#animation {
+  font-family: "Didact Gothic", "sans serif";
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  line-height: 1.5em;
+  color: #ff6600; }
 
 #title {
   margin-top: 3rem;
@@ -288,6 +300,7 @@ article {
     height: 100%;
     margin-bottom: 1em; }
   article h1, article h2, article h3 {
+    color: #b3b3b3;
     margin: 1em 0em;
     text-align: left; }
   article p {
@@ -312,7 +325,7 @@ article {
     font-family: 'Source Code Pro', monospace;
     padding: 0.1rem;
     border-radius: 3px;
-    border: 1px solid #cccccc; }
+    border: 1px solid #b3b3b3; }
   article img {
     width: 100%;
     max-width: 100%;
@@ -320,8 +333,8 @@ article {
     margin: 2rem auto;
     opacity: 1; }
   article blockquote {
-    background-color: #cccccc;
-    color: #39424E;
+    background-color: #b3b3b3;
+    color: #33302E;
     padding: 2rem;
     margin: 2rem 1rem 2rem 1rem;
     border-radius: 3px; }
@@ -341,7 +354,7 @@ article {
     article table td, article table th {
       padding: 2px 5px;
       text-align: center;
-      border: 1px solid #cccccc; }
+      border: 1px solid #b3b3b3; }
   article li {
     line-height: 2;
     padding-left: 0.4rem; }
