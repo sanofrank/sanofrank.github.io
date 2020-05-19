@@ -56,7 +56,7 @@
 
         };
 
-        $(window).click(function(){
+        $(window).click(function () {
             $(".container").first().hide();
             $("#overlay").hide();
             $(".flex-container").first().fadeIn(800);
@@ -64,37 +64,52 @@
 
 
         window.onload = function () {
-            
-            let nav = $(".flex-container").first();
-            nav.hide();
 
-            var css = document.createElement("style");
-            let containers = document.getElementsByClassName("container");
-            let dim = containers[0].getBoundingClientRect();
-            let width = Math.round(dim.width) + 10;
-            
-            console.log(width);
-            css.type = "text/css"
-            css.innerHTML= '.container { width: '+width+'px}';
-            console.log(css.innerHTML);
-            document.body.appendChild(css);
-            $("#dim").hide();
+            if (window.sessionStorage) {
+                if (!sessionStorage.getItem('firstLoad')) {
+                    console.log(sessionStorage,"if");
+                    sessionStorage['firstLoad'] = true;
+                    let nav = $(".flex-container").first();
+                    nav.hide();
 
-            console.log(dim);
-            var elements = document.getElementsByClassName('txt-rotate');
-            for (var i = 0; i < elements.length; i++) {
-                var toRotate = elements[i].getAttribute('data-rotate');
-                var period = elements[i].getAttribute('data-period');
-                if (toRotate) {
-                    new TxtRotate(elements[i], JSON.parse(toRotate), period);
+                    var css = document.createElement("style");
+                    let containers = document.getElementsByClassName("container");
+                    let dim = containers[0].getBoundingClientRect();
+                    let width = Math.round(dim.width) + 10;
+
+                    css.type = "text/css"
+                    css.innerHTML = '.container { width: ' + width + 'px}';
+                    document.body.appendChild(css);
+                    $("#dim").hide();
+
+                    var elements = document.getElementsByClassName('txt-rotate');
+                    for (var i = 0; i < elements.length; i++) {
+                        var toRotate = elements[i].getAttribute('data-rotate');
+                        var period = elements[i].getAttribute('data-period');
+                        if (toRotate) {
+                            new TxtRotate(elements[i], JSON.parse(toRotate), period);
+                        }
+                    }
+
+                    // INJECT CSS
+                    //var css = document.createElement("style");
+                    //css.type = "text/css";
+                    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 } .container {width: " + width + "px}";
+                    document.body.appendChild(css);
+
                 }
+                else {
+                    console.log(sessionStorage,"else");
+                    $(".container").first().hide();
+                    $("#overlay").hide();
+                    $(".flex-container").first().show();
+                    //localStorage.removeItem('firstLoad');
+
+                }
+
             }
 
-            // INJECT CSS
-            //var css = document.createElement("style");
-            //css.type = "text/css";
-            css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 } .container {width: "+width+"px}";
-            document.body.appendChild(css);
+
         };
 
 

@@ -29,7 +29,7 @@ header
     padding: 6em 1em 1em 0
     @media screen and (max-width: 736px)
         padding: 3em 1em
-
+//Splash page
 #overlay
     position: absolute
     background: $dark-grey
@@ -38,7 +38,7 @@ header
     width: 100%
     padding: 10px
 
-
+//Hello, call me Frank
 .container
     display: flex
     flex-direction: column
@@ -46,15 +46,133 @@ header
     align-items: flex-start
     z-index: 1001
 
+#form-container
+    position: relative
+    margin: 0 auto
+    width: 100%
+    text-align: center
+    
+button
+    overflow: visible
+    text-transform: none
 
-/*.txt-rotate   
-    position: absolute
-    top: 50%
-    left: 50%
-    transform: translate(-50%, -50%)
-    width: 100%*/
-//-ms-transform: translate(-50%, -50%)
-//transform: translate(-50%, -50%)
+select
+    text-transform: none
+
+button, input, select, textarea
+    color: $links
+    font: $font
+    margin: 0
+
+input
+    line-height: normal
+    font-size: inherit
+
+textarea
+    overflow: auto
+    font-size: inherit
+
+form
+    padding: 37.5px
+    margin: 0 auto
+
+.email
+    float: right
+    width: 45% 
+
+input[type='text'], [type='email'], select, textarea
+    background: none
+    border: none
+    border-bottom: solid 2px $links
+    color: $white
+    margin: 0em 0 1.875em 0
+    padding: 0 0 0.875em 0
+    width: 100%
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    -ms-box-sizing: border-box
+    -o-box-sizing: border-box
+    box-sizing: border-box
+    -webkit-transition: all 0.3s
+    -moz-transition: all 0.3s
+    -ms-transition: all 0.3s
+    -o-transition: all 0.3s
+    transition: all 0.3s
+
+input[type='text']:focus, [type='email']:focus, textarea:focus
+    outline: none
+    padding: 0 0 0.875em 0
+
+.message
+    float: none
+
+.name
+    float: left
+    width: 45%
+
+    &::-ms-expand
+        display: none
+
+textarea
+    line-height: 150%
+    height: 150px
+    resize: none
+    width: 100%
+
+input:focus::placeholder
+  color: transparent
+
+textarea:focus::placeholder
+    color: transparent
+
+\::-webkit-input-placeholder
+    color: $links
+
+\:-moz-placeholder, ::-moz-placeholder
+    color: $links
+    opacity: 1
+
+\:-moz-placeholder  
+	color: $links
+	opacity: 1
+
+
+\:-ms-input-placeholder
+    color: $links
+
+#form_button
+    background: none
+    border: solid 2px $links
+    color: $links
+    cursor: pointer
+    display: inline-block    
+    font-family: $font
+    font-weight: bold
+    outline: none
+    padding: 10px 35px
+    -webkit-transition: all 0.3s
+    -moz-transition: all 0.3s
+    -ms-transition: all 0.3s
+    -o-transition: all 0.3s
+    transition: all 0.3s
+
+    &:hover
+        background: $links-hover
+        color: $dark-grey
+        border: solid 2px $white
+
+@media screen and (max-width: 768px)
+    #form-container
+        margin: 20px auto
+        width: 95%
+
+@media screen and (max-width: 480px)
+    #form_button
+        padding: 15px 25px
+
+@media screen and (max-width: 420px)
+    input[type='text'], [type='email'], select, textarea
+        font-size: 0.875em
 
 h1,h2,h3
     margin-bottom: 0.5em

@@ -13,7 +13,7 @@ pygmentsCodefences       = true
     dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
     favicon              = "sam.ico"
     homepage             = "main"                           # What to call the home page link
-    footerText           = "Call me Sam, a theme for Hugo."
+    footerText           = "Call me Frank, the personal space of Francesco Paolucci"
 
 # Metadata for Open Graph and Twitter
     description          = "Francesco Paolucci personal website"               # Max 160 characters show in search results
@@ -34,8 +34,12 @@ pygmentsCodefences       = true
     text = "portfolio"
 
 [[params.mainMenu]]
-    link = "/about"
+    link = "about"
     text = "who is Frank?"
+
+[[params.mainMenu]]
+    link = "contact"
+    text = "get in touch"
 
 [imaging]
     quality = 75

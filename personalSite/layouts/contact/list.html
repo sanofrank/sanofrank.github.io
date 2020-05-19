@@ -1,0 +1,29 @@
+{{ define "section_content" }}
+<div class="flex-container">
+
+    <article role="article">
+        {{ .Content }}
+    </article>
+    <div id="form-container">
+        <form action="https://getform.io/f/9ceffe77-5da0-4497-9363-3bc8fb7de236" method="POST" id="contact_form">
+            <div class="name">
+              <label for="name"></label>
+              <input type="text" placeholder="name" name="name" id="name_input" required>
+            </div>
+            <div class="email">
+              <label for="email"></label>
+              <input type="email" placeholder="email" name="email" id="email_input" required>
+            </div>
+            <div class="message">
+              <label for="message"></label>
+              <textarea name="message" placeholder="message" id="message_input" cols="30" rows="5" required></textarea>
+            </div>
+            <div class="submit">
+              <input type="submit" value="send message" id="form_button" />
+            </div>
+          </form><!-- // End form -->
+      </div>
+
+</div>
+
+{{ end }}
