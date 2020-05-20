@@ -22,6 +22,10 @@ body {
   align-items: center;
   opacity: 1; }
 
+@media screen and (max-width: 736px) {
+  article {
+    padding: 3em 1em; } }
+
 header {
   color: #ff6600;
   padding: 6em 1em 1em 0; }

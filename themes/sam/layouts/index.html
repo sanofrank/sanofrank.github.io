@@ -32,7 +32,7 @@
             this.el.innerHTML = '<span class="wrap">' + this.txt.slice(0, 6) + '<br>' + this.txt.slice(6) + '</span>';
 
             var that = this;
-            var delta = 200 - Math.random() * 100; //speed
+            var delta = 180 - Math.random() * 100; //speed
 
             if (this.isDeleting) { delta /= 2; }
 
@@ -92,8 +92,7 @@
                     }
 
                     // INJECT CSS
-                    //var css = document.createElement("style");
-                    //css.type = "text/css";
+
                     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 } .container {width: " + width + "px}";
                     document.body.appendChild(css);
 
@@ -103,7 +102,6 @@
                     $(".container").first().hide();
                     $("#overlay").hide();
                     $(".flex-container").first().show();
-                    //localStorage.removeItem('firstLoad');
 
                 }
 
@@ -121,7 +119,7 @@
     </div>
     <div class="container" id="splash">
         <h1 id ="animation">
-            <span class="txt-rotate" data-period="2400" data-rotate='["Hello, call me Frank."]'></span>
+            <span class="txt-rotate" data-period="1800" data-rotate='["Hello, call me Frank."]'></span>
         </h1>
         <h1 class="big-link" id="dim">
             <span>Hello,<br> call me Frank.</span>
