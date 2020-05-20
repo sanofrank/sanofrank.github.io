@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>machine learning on Call me Frank</title>
-    <link>https://example.com/tags/machine-learning/</link>
+    <link>https://sanofrank.github.io/tags/machine-learning/</link>
     <description>Recent content in machine learning on Call me Frank</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Oct 2019 15:35:39 +0200</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sanofrank.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Human2Simpson</title>
-      <link>https://example.com/portfolio/human2simpson/</link>
+      <link>https://sanofrank.github.io/portfolio/human2simpson/</link>
       <pubDate>Sat, 12 Oct 2019 15:35:39 +0200</pubDate>
       
-      <guid>https://example.com/portfolio/human2simpson/</guid>
+      <guid>https://sanofrank.github.io/portfolio/human2simpson/</guid>
       <description>Unpaired image to image traslation based on GAN networks. Project done for the Machine Learning exam.
 The project is based on CycleGAN model that allows to learn how to transform an image from one domain (style) to an another using for the training two unpaired dataset. Some additions have been made on the traditional CycleGAN.
 The aim of the project was in to be able to transform an human face to a simpson version of it.</description>
@@ -24,13 +24,14 @@ The aim of the project was in to be able to transform an human face to a simpson
     
     <item>
       <title>Scalable Hashtag Recommender System</title>
-      <link>https://example.com/portfolio/hashtagrec/</link>
+      <link>https://sanofrank.github.io/portfolio/hashtagrec/</link>
       <pubDate>Sat, 12 Oct 2019 15:35:39 +0200</pubDate>
       
-      <guid>https://example.com/portfolio/hashtagrec/</guid>
-      <description>Hashtag Recommender System based on k-means clustering PROJECT DESCRIPTION  A hashtag recommender system based on k-means, mini-batch fast k-means and a deep learning feature extraction phase.
+      <guid>https://sanofrank.github.io/portfolio/hashtagrec/</guid>
+      <description>Hashtag Recommender System based on k-means clustering A hashtag recommender system based on k-means, mini-batch fast k-means and a deep learning feature extraction phase.
 The tool developed is a command line interface that takes as input an image and returns a list of hashtags recomandations.
-The model built was trained on real data taken from Instagram, for the clustering phase Apache Spark was used for performance reasons.</description>
+The model built was trained on real data taken from Instagram, for the clustering phase Apache Spark was used for performance reasons.
+For possible evaluation you can check the GitHub repository.</description>
     </item>
     
   </channel>

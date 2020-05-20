@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pagination on Call me Frank</title>
-    <link>https://example.com/tags/pagination/</link>
+    <link>https://sanofrank.github.io/tags/pagination/</link>
     <description>Recent content in pagination on Call me Frank</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 12 May 2020 16:57:36 +0200</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/pagination/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sanofrank.github.io/tags/pagination/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fitting Algorithm</title>
-      <link>https://example.com/portfolio/fitting/</link>
+      <link>https://sanofrank.github.io/portfolio/fitting/</link>
       <pubDate>Tue, 12 May 2020 16:57:36 +0200</pubDate>
       
-      <guid>https://example.com/portfolio/fitting/</guid>
+      <guid>https://sanofrank.github.io/portfolio/fitting/</guid>
       <description>Automatic application of typographical constraints for printing text documents on browsers Thesis project for my bachelor degree.
 Developing of a fitting algorithm which help choosing a paginated sequence with a system of scores, established by typesetting rules (ex. no widows or orphans, no flyspeck, no blank space), that will be then displayed on the browser using the open source framework Paged.js.
  Skills used
