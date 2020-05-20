@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="generator" content="Hugo 0.69.2" />
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+
+<meta name="description" content="Francesco Paolucci personal website">
+<title>
+    Call me Frank
+</title>
+<link href="/index.xml" rel="alternate" type="application/rss+xml" title="Call me Frank" />
+
+<link rel="shortcut icon" href="/sam.ico">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.dcc99d8db111ff054a75ade181c143bff5f1ea6f006808818cc3a96bc0b29a47.css" integrity="sha256-3MmdjbER/wVKda3hgcFDv/Xx6m8AaAiBjMOpa8Cymkc=" crossorigin="anonymous" media="screen">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://example.com/tn.png"/>
+
+<meta name="twitter:title" content="Call me Frank"/>
+<meta name="twitter:description" content="Francesco Paolucci personal website"/>
+
+<meta property="og:title" content="Call me Frank" />
+<meta property="og:description" content="Francesco Paolucci personal website" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://example.com/" />
+<meta property="og:image" content="https://example.com/tn.png"/>
+<meta property="og:updated_time" content="2020-05-12T12:53:33+02:00" /><meta property="og:site_name" content="Call me Frank" />
+
+
+    <title>Call me Frank</title>
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        var TxtRotate = function (el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtRotate.prototype.tick = function () {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1); 
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt.slice(0, 6) + '<br>' + this.txt.slice(6) + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100; 
+
+            if (this.isDeleting) { delta /= 2; }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                $(".container").first().hide();
+                $("#overlay").hide();
+
+                $(".flex-container").first().fadeIn(800);
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+                return;
+            }
+
+            setTimeout(function () {
+                that.tick();
+            }, delta);
+
+        };
+
+        $(window).click(function () {
+            $(".container").first().hide();
+            $("#overlay").hide();
+            $(".flex-container").first().fadeIn(800);
+        });
+
+
+        window.onload = function () {
+
+            if (window.sessionStorage) {
+                if (!sessionStorage.getItem('firstLoad')) {
+                    console.log(sessionStorage,"if");
+                    sessionStorage['firstLoad'] = true;
+                    let nav = $(".flex-container").first();
+                    nav.hide();
+
+                    var css = document.createElement("style");
+                    let containers = document.getElementsByClassName("container");
+                    let dim = containers[0].getBoundingClientRect();
+                    let width = Math.round(dim.width) + 10;
+
+                    css.type = "text/css"
+                    css.innerHTML = '.container { width: ' + width + 'px}';
+                    document.body.appendChild(css);
+                    $("#dim").hide();
+
+                    var elements = document.getElementsByClassName('txt-rotate');
+                    for (var i = 0; i < elements.length; i++) {
+                        var toRotate = elements[i].getAttribute('data-rotate');
+                        var period = elements[i].getAttribute('data-period');
+                        if (toRotate) {
+                            new TxtRotate(elements[i], JSON.parse(toRotate), period);
+                        }
+                    }
+
+                    
+                    
+                    
+                    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 } .container {width: " + width + "px}";
+                    document.body.appendChild(css);
+
+                }
+                else {
+                    console.log(sessionStorage,"else");
+                    $(".container").first().hide();
+                    $("#overlay").hide();
+                    $(".flex-container").first().show();
+                    
+
+                }
+
+            }
+
+
+        };
+
+
+
+
+    </script>
+    <div id="overlay">
+
+    </div>
+    <div class="container" id="splash">
+        <h1 id ="animation">
+            <span class="txt-rotate" data-period="2400" data-rotate='["Hello, call me Frank."]'></span>
+        </h1>
+        <h1 class="big-link" id="dim">
+            <span>Hello,<br> call me Frank.</span>
+        </h1>
+    </div>
+    <nav role="navigation" class="flex-container" id="splash">
+        
+        
+        <a href="/posts" class="big-link">
+            posts
+        </a>
+        
+        <a href="gallery" class="big-link">
+            gallery
+        </a>
+        
+        <a href="portfolio" class="big-link">
+            portfolio
+        </a>
+        
+        <a href="about" class="big-link">
+            who is Frank?
+        </a>
+        
+        <a href="contact" class="big-link">
+            get in touch
+        </a>
+        
+
+        
+
+    </nav>
+</body>
+
+</html>
