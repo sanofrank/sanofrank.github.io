@@ -11,7 +11,7 @@ pygmentsCodefences       = true
 [params]
     dateform             = "Mon Jan 02, 2006"
     dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
-    favicon              = "sam.ico"
+    favicon              = ""
     homepage             = "main"                           # What to call the home page link
     footerText           = "Call me Frank, the personal space of Francesco Paolucci"
 
