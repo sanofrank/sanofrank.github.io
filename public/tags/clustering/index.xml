@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>clustering on Call me Frank</title>
-    <link>https://sanofrank.github.io/tags/clustering/</link>
+    <link>https://sanofrank.github.io/public/tags/clustering/</link>
     <description>Recent content in clustering on Call me Frank</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Oct 2019 15:35:39 +0200</lastBuildDate>
     
-	<atom:link href="https://sanofrank.github.io/tags/clustering/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sanofrank.github.io/public/tags/clustering/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Scalable Hashtag Recommender System</title>
-      <link>https://sanofrank.github.io/portfolio/hashtagrec/</link>
+      <link>https://sanofrank.github.io/public/portfolio/hashtagrec/</link>
       <pubDate>Sat, 12 Oct 2019 15:35:39 +0200</pubDate>
       
-      <guid>https://sanofrank.github.io/portfolio/hashtagrec/</guid>
+      <guid>https://sanofrank.github.io/public/portfolio/hashtagrec/</guid>
       <description>Hashtag Recommender System based on k-means clustering A hashtag recommender system based on k-means, mini-batch fast k-means and a deep learning feature extraction phase.
 The tool developed is a command line interface that takes as input an image and returns a list of hashtags recomandations.
 The model built was trained on real data taken from Instagram, for the clustering phase Apache Spark was used for performance reasons.
