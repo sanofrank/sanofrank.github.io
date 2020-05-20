@@ -16,9 +16,9 @@ category: "portfolio"
 
 ## Automatic application of typographical constraints for printing text documents on browsers
 
-Thesis project for my bachelor degree.
+Thesis project for my master degree.
 
-Developing of a fitting algorithm which help choosing a paginated sequence with a system of scores, established by typesetting rules (ex. no widows or orphans, no flyspeck, no blank space), that will be then displayed on the browser using the open source framework Paged.js.
+It consisted in the developing of a fitting algorithm which help choosing a paginated sequence with a system of scores, established by typesetting rules (ex. no widows or orphans, no flyspeck, no blank space), that will be then displayed on the browser using the open source framework Paged.js.
 
 > **Skills used**
 >
