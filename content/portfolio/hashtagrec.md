@@ -9,12 +9,11 @@ endDate: 2018-07-01
 tags: ["machine learning","clustering","instagram","python"]
 category: "portfolio"
 ---
-## Hashtag Recommender System based on k-means clustering
 
 ![human2simpson](/portfolio/scala.png)
 
-# PROJECT DESCRIPTION
----
+## Hashtag Recommender System based on k-means clustering
+
 A hashtag recommender system based on k-means, mini-batch fast k-means and a deep learning feature extraction phase.
 
 The tool developed is a command line interface that takes as input an image and returns a list of hashtags recomandations.
