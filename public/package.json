@@ -2,7 +2,7 @@
   "name": "sanofrank.github.io",
   "version": "1.0.0",
   "description": "personal site",
-  "main": "index.js",
+  "main": "index.html",
   "dependencies": {
     "autoprefixer": "^9.8.0",
     "gyp": "^0.5.0",
