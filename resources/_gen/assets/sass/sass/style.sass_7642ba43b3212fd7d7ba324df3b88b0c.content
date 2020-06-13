@@ -61,6 +61,7 @@ select {
   text-transform: none; }
 
 button, input, select, textarea {
+  font-family: "Didact Gothic", "sans serif";
   color: #b3b3b3;
   font: "Didact Gothic", "sans serif";
   margin: 0; }
