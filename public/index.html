@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<meta name="generator" content="Hugo 0.71.0" />
+	<meta name="generator" content="Hugo 0.72.0" />
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 <meta name="HandheldFriendly" content="True">
@@ -14,9 +14,7 @@
 <title>
     Call me Frank
 </title>
-<link href="/public/index.xml" rel="alternate" type="application/rss+xml" title="Call me Frank" />
-
-<link rel="shortcut icon" href="/public/sam.ico">
+<link href="/index.xml" rel="alternate" type="application/rss+xml" title="Call me Frank" />
 
 
 
@@ -25,7 +23,7 @@
 
 
 
-<link rel="stylesheet" href="/public/css/main.min.dcc99d8db111ff054a75ade181c143bff5f1ea6f006808818cc3a96bc0b29a47.css" integrity="sha256-3MmdjbER/wVKda3hgcFDv/Xx6m8AaAiBjMOpa8Cymkc=" crossorigin="anonymous" media="screen">
+<link rel="stylesheet" href="/css/main.min.760d06360cad305423c3df6c6d712fad3c6a452c8dde31e49815f80e8cec8d92.css" integrity="sha256-dg0GNgytMFQjw99sbXEvrTxqRSyN3jHkmBX4DozsjZI=" crossorigin="anonymous" media="screen">
 
 
 
@@ -34,7 +32,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://sanofrank.github.io/public/tn.png"/>
+<meta name="twitter:image" content="https://francescopaolucci.dev/tn.png"/>
 
 <meta name="twitter:title" content="Call me Frank"/>
 <meta name="twitter:description" content="Francesco Paolucci personal website"/>
@@ -42,10 +40,21 @@
 <meta property="og:title" content="Call me Frank" />
 <meta property="og:description" content="Francesco Paolucci personal website" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://sanofrank.github.io/public/" />
-<meta property="og:image" content="https://sanofrank.github.io/public/tn.png"/>
-<meta property="og:updated_time" content="2020-05-12T12:53:33+02:00" /><meta property="og:site_name" content="Call me Frank" />
+<meta property="og:url" content="https://francescopaolucci.dev/" />
+<meta property="og:image" content="https://francescopaolucci.dev/tn.png"/>
+<meta property="og:updated_time" content="2020-05-12T16:57:36+02:00" /><meta property="og:site_name" content="Call me Frank" />
 
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-167248237-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
     <title>Call me Frank</title>
 </head>
@@ -76,7 +85,7 @@
             this.el.innerHTML = '<span class="wrap">' + this.txt.slice(0, 6) + '<br>' + this.txt.slice(6) + '</span>';
 
             var that = this;
-            var delta = 200 - Math.random() * 100; 
+            var delta = 170 - Math.random() * 100; 
 
             if (this.isDeleting) { delta /= 2; }
 
@@ -136,8 +145,7 @@
                     }
 
                     
-                    
-                    
+
                     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 } .container {width: " + width + "px}";
                     document.body.appendChild(css);
 
@@ -147,7 +155,6 @@
                     $(".container").first().hide();
                     $("#overlay").hide();
                     $(".flex-container").first().show();
-                    
 
                 }
 
@@ -165,7 +172,7 @@
     </div>
     <div class="container" id="splash">
         <h1 id ="animation">
-            <span class="txt-rotate" data-period="2400" data-rotate='["Hello, call me Frank."]'></span>
+            <span class="txt-rotate" data-period="1800" data-rotate='["Hello, call me Frank."]'></span>
         </h1>
         <h1 class="big-link" id="dim">
             <span>Hello,<br> call me Frank.</span>
