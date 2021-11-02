@@ -4,7 +4,7 @@ date: 2020-05-12T12:53:33+02:00
 showDate: false
 ---
 
-Hi, my name is Francesco Paolucci and I’m a computer scientis from Perugia, Italy. I recently graduated from the University of Bologna on the master course called "Software Technics", an overtour on the most common latest technologies (machine learning, scalable programming, AI). I have lived in Bologna for the last four years and now I moved back to my hometown.
+Hi, my name is Francesco Paolucci and I’m a programmer from Perugia, Italy. I graduated from the University of Bologna on the master course called "Software Technics", an overtour on the most common latest technologies (machine learning, scalable programming, AI). I'm currently based in Bologna since 2016.
 
 Working on my thesis I have discovered a big passion about Digital Publishing and Typography. I have always been a fond reader and the possibility of joining my studies and my greates interest seemed perfect. 
 
