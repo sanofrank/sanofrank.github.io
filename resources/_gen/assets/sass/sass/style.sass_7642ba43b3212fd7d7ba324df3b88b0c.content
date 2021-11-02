@@ -217,7 +217,9 @@ hr {
 
 nav {
   margin: 1em auto; }
-
+  @media screen and (max-width: 736px) {
+    nav {
+      padding: 0em 1em; } }
 .wrap {
   margin: 0 auto;
   width: 45%;
