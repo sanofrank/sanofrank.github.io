@@ -5,9 +5,9 @@ date: 2020-05-12T16:57:36+02:00
 showDate: false
 draft: false
 period: "Dec. 2019 - Mar. 2020"
-startDate: 2019-12-01
-endDate: 2020-03-01
-tags: ["paged.js","typography","pagination","digital publishing"]
+startDate: "2019-12-01"
+endDate: "2020-03-01"
+tags: ["paged.js","typography","pagination","digital publishing","node.js"]
 category: "portfolio"
 ---
 

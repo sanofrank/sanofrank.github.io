@@ -7,9 +7,9 @@
         {{ range sort .Data.Pages ".Params.endDate" "desc"}}
         <li>
            
-            {{ if (.Params.endDate) }}
+            {{ if .Params.endDate }}
             {{ dateFormat "Jan, 2006" .Params.startDate}} - {{ dateFormat "Jan, 2006" .Params.endDate}} --
-            {{ else }}
+            {{ else if .Params.startDate}}
             {{ dateFormat "Jan, 2006" .Params.startDate}} - ongoing --
             {{ end }}
 

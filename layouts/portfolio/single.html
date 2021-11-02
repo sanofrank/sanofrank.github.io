@@ -3,8 +3,8 @@
     <aside role="complementary">
         {{if .Params.endDate}}
         from {{ dateFormat "January, 2006" .Params.startDate}} to {{ dateFormat "January, 2006" .Params.endDate}}
-        {{else}}
-        from {{dateFormat  "January, 2006" .Params.startDate}} ongoing
+        {{else if .Params.startDate}}
+        from {{ dateFormat  "January, 2006" .Params.startDate}} ongoing
         {{end}}
         <div class="tag-container">
             {{ range $term := .Params.tags }}

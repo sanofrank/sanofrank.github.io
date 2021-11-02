@@ -6,8 +6,8 @@ showDate: false
 draft: false
 tags: ["machine learning","cyclegan","python","neural network"]
 category: "portfolio"
-startDate: 2018-08-01
-endDate: 2018-11-01
+startDate: "2018-08-01"
+endDate: "2018-11-01"
 ---
 
 ![human2simpson](/portfolio/human2simpson.png)

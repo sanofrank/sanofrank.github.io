@@ -4,13 +4,13 @@ subtitle: "Hashtag Recommender System based on k-means clustering"
 date: 2019-10-12T15:35:39+02:00
 showDate: false
 draft: false
-startDate: 2018-06-01
-endDate: 2018-07-01
+startDate: "2018-06-01"
+endDate: "2018-07-01"
 tags: ["machine learning","clustering","instagram","python"]
 category: "portfolio"
 ---
 
-![human2simpson](/portfolio/scala.png)
+![scala](/portfolio/scala.png)
 
 ## Hashtag Recommender System based on k-means clustering
 
