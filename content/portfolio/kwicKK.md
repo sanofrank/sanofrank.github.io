@@ -23,13 +23,13 @@ Originally developed by professor Fabio Vitali at the Department of Computer Sci
 
 The main features of the application are:
 
-- Extraction of concordances, understood as alphabetically ordered lists of words that appear in a text with an indication of  the textual context surrounding that word;
+- Extraction of concordances as alphabetically ordered lists of words that appear in a text with an indication of the textual context surrounding that word;
 - Markup of intertextual elements (people, organizations, places, bibliographic references, and quotations);
 - Manual entity disambiguation (as with indirect mentions, and so on);
 - Data reconciliation with authority lists such as Wikidata to further disambiguate marked entities and link them to web resources, to ensure validity and quality control;
 - Metadata insertion, to describe the historical and bibliographic context of each work. All the metadata are saved on a MongoDB database.
  
-After the markup and the metadata insertion are completed KwicKwocKwac output can be in two forms: an HTML RDFa file that extends the number one markup language with RDF subject-predicate-object expressions, or a XML TEI file the still most used encoding standard for digital texts.
+After the markup and the metadata insertion is completed, KwicKwocKwac output can be expressed in two forms: an HTML RDFa file that extends the number one markup language with RDF subject-predicate-object expressions, or a XML TEI file the still most used encoding standard for digital texts.
 
 The platform was developed mainly with jQuery and Bootstrap on the front-end, while the back-end infrastructure is build on Node.js with the help of many libraries like: Express for the API and routing handling, Mammooth.js for the doc or docx convertion to HTML files, Cheerio.js for the document parsing and many others.
 

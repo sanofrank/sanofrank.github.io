@@ -5,7 +5,7 @@
   box-sizing: border-box; }
 
 html {
-  background-color: #141414;
+  background-color: #1b1b1b;
   font-family: "Didact Gothic", "sans serif";
   font-size: 16px; }
 
@@ -27,14 +27,14 @@ body {
     padding: 3em 1em; } }
 
 header {
-  color: #ff6600;
+  color: #ff6f00;
   padding: 6em 1em 1em 0; }
   @media screen and (max-width: 736px) {
     header {
       padding: 3em 1em; } }
 #overlay {
   position: absolute;
-  background: #141414;
+  background: #1b1b1b;
   margin: auto;
   height: 100%;
   width: 100%;
@@ -262,7 +262,7 @@ nav {
   bottom: 0;
   padding: 1rem;
   font-family: "Didact Gothic", "sans serif";
-  color: #b84900;
+  color: #c43e00;
   font-size: 1rem;
   line-height: 1em;
   opacity: 0.8; }
@@ -279,9 +279,9 @@ nav {
   font-weight: 300;
   margin-bottom: 2rem;
   line-height: 1.5em;
-  color: #b84900; }
+  color: #c43e00; }
   .big-link:hover {
-    color: #ff6600; }
+    color: #ff6f00; }
 
 #animation {
   font-family: "Didact Gothic", "sans serif";
@@ -289,7 +289,7 @@ nav {
   font-weight: 300;
   margin-bottom: 2rem;
   line-height: 1.5em;
-  color: #ff6600; }
+  color: #ff6f00; }
 
 #title {
   margin-top: 3rem;
