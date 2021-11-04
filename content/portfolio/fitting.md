@@ -20,6 +20,8 @@ Thesis project for my master degree.
 
 It consisted in the developing of a fitting algorithm which help choosing a paginated sequence with a system of scores, established by typesetting rules (ex. no widows or orphans, no flyspeck, no blank space), that will be then displayed on the browser using the open source framework Paged.js.
 
+Check out the presentation [here](/portfolio/thesisPresentation.pdf).
+
 > **Skills used**
 >
 > - **Languages**: 
