@@ -11,7 +11,7 @@ googleAnalytics          = "UA-167248237-1"                               # Trac
 [params]
     dateform             = "Mon Jan 02, 2006"
     dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
-    favicon              = ""
+    favicon              = "f.png"
     homepage             = "main"                           # What to call the home page link
     footerText           = "Call me Frank, the personal space of Francesco Paolucci"
 
