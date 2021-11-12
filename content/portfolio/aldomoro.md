@@ -13,7 +13,7 @@ category: "portfolio"
 
 ![The National Edition of Aldo Moro's works](/portfolio/aldomoro/aldomoro.png)
 
-## Digital edition of the published and unpublished texts by Aldo Moro, the famous italian politician from the second half of XX century
+## Digital edition of the published and unpublished texts by Aldo Moro, a famous italian politician from the second half of XX century
 
 The project has been funded by the Ministry of Cultural Heritage of Italy in collaboration with the Univesity of Bologna, my role as a Research Assistant was to develop the [markup web application](/portfolio/kwickk/) for the texts collection and the digital edition.
 
