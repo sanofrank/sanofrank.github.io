@@ -1,7 +1,7 @@
 ---
 title: "I updated my portfolio and resume"
 date: 2021-11-12T10:15:15+01:00
-draft: true
+draft: false
 showDate: true
 period: "2021"
 tags: ["portfolio","resume","cv","Aldo Moro","Vue.js","Vuetify","Berlin","web development"]
