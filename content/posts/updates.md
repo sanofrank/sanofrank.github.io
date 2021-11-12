@@ -16,7 +16,7 @@ During the last two years, I have been very busy working as a **Research Assista
 
 This project gave me the chance to learn more about **Digital Humanities** and **Data Modeling**, grow my experience in Web Development by using **Vue.js**, one of the most popular frameworks combined with **Vuetify** design. For more technical details about these two projects, you can check my [portfolio](/portfolio).
 
-I also updated my resume, since I am almost reaching the end of my contract, looking for some new experiences abroad. Right now, I am looking in the **Berlin** area because, in my opinion, it is one of the most enjoyable and eclectic European capital. Also, I have never lived outside of Italy and I am excited about the idea of challenging myself. If you are curious you can download my resume [here](/FrancescoPaolucciResume.pdf).
+Since I am almost reaching the end of my contract, I updated my resume, looking for some new experiences abroad. Right now, I am looking in the **Berlin** area because, in my opinion, it is one of the most enjoyable and eclectic European capital. Also, I have never lived outside of Italy and I am eager to challenge myself. If you are curious you can download my resume [here](/FrancescoPaolucciResume.pdf).
 
 Thanks for reading this post and if you are interested in my expertise (or even just to say hi) write me in my [mailbox](/contact). 
 
