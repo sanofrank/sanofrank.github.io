@@ -1,6 +1,6 @@
 ---
 title: "I updated my portfolio and resume"
-date: 2021-11-12T10:15:15+01:00
+date: 2021-11-15T10:15:15+01:00
 draft: false
 showDate: true
 period: "2021"
